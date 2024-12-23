@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Portfolio</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Main content styles */
+    main {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #2c3e50;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      font-size: 1.4rem;
+      margin-bottom: 0.8rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    /* Skills Section */
+    .skills-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .skill-item {
+      flex: 1 1 calc(33.333% - 1rem);
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Projects Section */
+    .project-item {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .skills-container {
+        flex-direction: column;
+      }
+
+      .skill-item {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Developer Portfolio</h1>
+    <p>Passionate about coding, solving problems, and creating impactful solutions.</p>
+  </header>
+
+  <main>
+    <!-- About Section -->
+    <section class="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm a dedicated developer with a knack for designing and building robust web applications. I enjoy learning new technologies and continuously improving my skills.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill-item">HTML</div>
+        <div class="skill-item">CSS</div>
+        <div class="skill-item">JavaScript</div>
+        <div class="skill-item">React</div>
+        <div class="skill-item">Node.js</div>
+        <div class="skill-item">Python</div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="project-item">
+        <h3>Portfolio Website</h3>
+        <p>Designed and developed a personal portfolio website using HTML, CSS, and JavaScript to showcase my skills and projects.</p>
+      </div>
+      <div class="project-item">
+        <h3>Weather App</h3>
+        <p>Built a weather application using React and OpenWeatherMap API. It displays real-time weather data for any city.</p>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education">
+      <h2>Education</h2>
+      <div>
+        <h3>Bachelor of Technology in Computer Science</h3>
+        <p>XYZ University, Graduated 2024</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <p>Email: developer@example.com</p>
+      <p>Phone: +123 456 7890</p>
+      <p>GitHub: <a href="https://github.com/yourprofile" target="_blank">github.com/yourprofile</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Developer Portfolio. All rights reserved.</p>
+  </footer>
+</body>
+</html>

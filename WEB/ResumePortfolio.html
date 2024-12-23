@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casilda Rufina A P - Portfolio</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Global styles */
+    body {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      color: #333;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #0077b6;
+      color: #fff;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      font-weight: 700;
+    }
+
+    header p {
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Main content styles */
+    main {
+      padding: 3rem 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-size: 2.2rem;
+      margin-bottom: 1.5rem;
+      font-weight: 700;
+    }
+
+    h3 {
+      font-size: 1.8rem;
+      margin-bottom: 0.8rem;
+      font-weight: 600;
+    }
+
+    .skills-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .skill-group {
+      flex-basis: 48%;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+    }
+
+    .project-item {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .certifications li {
+      margin-bottom: 0.8rem;
+      list-style-type: none;
+      position: relative;
+      padding-left: 1.5rem;
+    }
+
+    .certifications li::before {
+      content: "•";
+      color: #0077b6;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #f1f1f1;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 1rem;
+      color: #666;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      header {
+        padding: 2rem 1rem;
+      }
+
+      header h1 {
+        font-size: 2.5rem;
+      }
+
+      header p {
+        font-size: 1.2rem;
+      }
+
+      main {
+        padding: 2rem 1rem;
+      }
+
+      h2 {
+        font-size: 2rem;
+      }
+
+      h3 {
+        font-size: 1.6rem;
+      }
+
+      .skills-container {
+        flex-direction: column;
+      }
+
+      .skill-group {
+        flex-basis: auto;
+        margin-bottom: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Casilda Rufina A P</h1>
+    <p>+91 9342401496 | casildapaul25@gmail.com | LinkedIn: Casilda Rufina</p>
+    <p>Driven and ambitious fresher seeking an opportunity that will allow me to leverage my skills and contribute to the success of the organization through dedication, creativity and a strong work ethic.</p>
+  </header>
+
+  <main>
+    <section class="education">
+      <h2>Education</h2>
+      <div class="education-item">
+        <h3>PSNA College of Engineering and Technology</h3>
+        <p>Master of Computer Application (MCA) - CGPA: 7.59</p>
+        <p>Currently Pursuing</p>
+      </div>
+      <div class="education-item">
+        <h3>Lady Doak College</h3>
+        <p>Bachelor of Physics - CGPA: 6.9</p>
+        <p>2017-2021</p>
+      </div>
+      <div class="education-item">
+        <h3>St. Joseph's Matric Higher Secondary School</h3>
+        <p>12th Standard, Percentage: 88.8%</p>
+        <p>2015-2017</p>
+      </div>
+      <div class="education-item">
+        <h3>St. Joseph's Matric Higher Secondary School</h3>
+        <p>10th Standard, Percentage: 86.6%</p>
+        <p>2013-2015</p>
+      </div>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill-group">
+          <h3>Technical Skills</h3>
+          <ul>
+            <li>Languages: Python, C</li>
+            <li>Web Designing Languages: HTML, CSS, JavaScript</li>
+            <li>Database: SQL</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Collaborative</li>
+            <li>Adaptability</li>
+            <li>Time Management</li>
+            <li>Goal-oriented</li>
+            <li>Teamwork</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="project-item">
+        <h3>Automatic Room Lighting</h3>
+        <p>The aim of this project is to make automatic lights to conserve electricity. When a person steps into the room, light turns on automatically and turns off when that person leaves the room. If more than one person steps into the room, the lights turns on and the last person to leave the room, turns off the lights.</p>
+        <p>Language: C</p>
+      </div>
+      <div class="project-item">
+        <h3>Spotify Clone</h3>
+        <p>Developed a responsive Spotify web interface using HTML, CSS, and JavaScript. Implemented key features like a music player with play/pause and progress bar controls, search functionality, and playlist views. Focused on pixel-perfect design and responsive layouts optimized for various devices.</p>
+        <p>Language: HTML, CSS, JavaScript</p>
+      </div>
+    </section>
+
+    <section class="certifications">
+      <h2>Certification Courses</h2>
+      <ul>
+        <li>Sololearn - SQL</li>
+        <li>Great Learning - Python</li>
+        <li>Udemy - The Complete Python Bootcamp</li>
+        <li>Udemy - The Complete Web Development Bootcamp</li>
+        <li>Cisco - IoT</li>
+        <li>Accenture North America Data Analytics and Visualization Skills</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright &copy; Casilda Rufina A P</p>
+  </footer>
+</body>
+</html>

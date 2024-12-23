@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of Computer Applications - PSNACET</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Poppins", Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0088cc;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img {
+            max-height: 80px;
+            width: auto;
+        }
+
+        h1 {
+            color: white;
+            margin: 0;
+            font-size: 1.8rem;
+        }
+
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            padding: 1rem;
+        }
+
+        .image-gallery img {
+            height: 495px;
+            width: auto;
+            max-width: 100%;
+            object-fit: cover;
+        }
+
+        .content {
+            padding: 2rem;
+        }
+
+        h2 {
+            color: #333;
+            margin: 1.5rem 0 1rem 0;
+        }
+
+        p {
+            font-size: 20px;
+            margin-bottom: 1rem;
+        }
+
+        .mission-list {
+            font-size: 20px;
+            padding-left: 2rem;
+        }
+
+        footer {
+            background: #0088cc;
+            color: white;
+            font-size: 20px;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            h1 {
+                margin-top: 1rem;
+            }
+
+            .image-gallery img {
+                height: auto;
+                max-height: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="psna logo.png" alt="PSNA College Logo" />
+        <h1>Department of Computer Applications</h1>
+    </header>
+
+    <main>
+        <section class="image-gallery">
+            <img src="department image.jpg" alt="Department View" />
+            <img src="college image.jpg" alt="College View" />
+        </section>
+
+        <section class="content">
+            <article>
+                <h2>About Department</h2>
+                <p>The PG Programme in Master of Computer Application was introduced in the year 1998. Initially, the sanctioned intake was 30. Subsequently, it was increased to 36, 60, 90 and to 120 during the academic years 1999-2000, 2000-2001, 2005-2006 and 2006-2007 respectively. Now, it is decreased to 60 from the academic year 2020-2021. Since inception the department is consistently producing very good academic performance and placement records.</p>
+            </article>
+
+            <article>
+                <h2>Vision</h2>
+                <p>To provide world class engineering education for individuals to become technologically superior, socially conscious and responsible citizens for the welfare of mankind.</p>
+            </article>
+
+            <article>
+                <h2>Mission</h2>
+                <ol class="mission-list">
+                    <li>To achieve academic excellence by imparting knowledge and skills through problem solving, practical training and design & development of innovative projects.</li>
+                    <li>To develop leadership and inter disciplinary team skills through effective communication training and inculcating ethical behavior.</li>
+                    <li>To carryout applied research in engineering & technology and facilitate lifelong learning.</li>
+                </ol>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright ©2023 PSNACET - MCA. All Rights Reserved.</p>
+        <p>Website Designed by viknesh</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Plans</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .pricing-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 50px;
+        }
+
+        .plan {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .plan h2 {
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .price {
+            font-size: 2rem;
+            color: #007BFF;
+            margin: 10px 0;
+        }
+
+        .plan:nth-child(2) .price {
+            color: #28a745;
+        }
+
+        .plan:nth-child(3) .price {
+            color: #dc3545;
+        }
+
+        .plan ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        .plan ul li {
+            margin: 10px 0;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .plan button {
+            background-color: #007BFF;
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .plan:nth-child(2) button {
+            background-color: #28a745;
+        }
+
+        .plan:nth-child(3) button {
+            background-color: #dc3545;
+        }
+
+        .plan button:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="pricing-container">
+        <div class="plan">
+            <h2>Basic Plan</h2>
+            <div class="price">$10/mo</div>
+            <ul>
+                <li>10 GB Storage</li>
+                <li>Unlimited Access</li>
+                <li>Email Support</li>
+            </ul>
+            <button>Choose Plan</button>
+        </div>
+        <div class="plan">
+            <h2>Pro Plan</h2>
+            <div class="price">$25/mo</div>
+            <ul>
+                <li>50 GB Storage</li>
+                <li>Priority Access</li>
+                <li>24/7 Support</li>
+            </ul>
+            <button>Choose Plan</button>
+        </div>
+        <div class="plan">
+            <h2>Enterprise Plan</h2>
+            <div class="price">$50/mo</div>
+            <ul>
+                <li>200 GB Storage</li>
+                <li>Dedicated Support</li>
+                <li>Custom Solutions</li>
+            </ul>
+            <button>Choose Plan</button>
+        </div>
+    </div>
+</body>
+</html>
